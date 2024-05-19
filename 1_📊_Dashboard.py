@@ -8,8 +8,6 @@ st.set_page_config(
     )
 st.header("Gestão de Tempos e Filas - Hemoterapia Einstein", divider='green')
 
-url = ("https://raw.githubusercontent.com/FerriVinicius/Dashboard-Hemoterapia-Einstein/main/datasample.csv")
-
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
@@ -51,7 +49,7 @@ def reserva():
     
 def urgencia():
     # Carregar o dataset
-    df = pd.read_csv("C:/Users/Vinicius/Downloads/datasample.csv")
+    df = pd.read_csv("https://raw.githubusercontent.com/FerriVinicius/Dashboard-Hemoterapia-Einstein/main/datasample.csv")
     
     # Converter as colunas de data para o formato desejado e lidar com valores vazios
     df["dh_solicitacao"] = pd.to_datetime(df["dh_solicitacao"], errors='coerce')
