@@ -1,0 +1,6 @@
+paciente,id_paciente,prioridade,dh_solicitacao,dh_analise,dh_coleta,dh_preparo,dh_liberado,visto_analise,visto_coleta,visto_preparo,visto_liberado,responsavel_pedido,CRM_responsavel_pedido,setor
+Maria Almeida,123456,urgencia,2024-03-05 09:40:34.000000,2024-05-02 10:00:34.000000,2024-05-02 10:40:34.000000,2024-05-02 11:00:34.000000,2024-05-02 11:40:34.000000,Vinicius Ferri,Vinicius Ferri,Vinicius Ferri,Vinicius Ferri,Roger Borges,123456SP,Morumbi
+Joao Silva,456789,urgencia,2024-03-05 10:11:34.000000,2024-05-02 10:25:34.000000,2024-05-02 10:50:34.000000,2024-05-02 11:50:34.000000,2024-05-02 13:02:34.000000,Vinicius Ferri,Vinicius Ferri,Vinicius Ferri,Vinicius Ferri,Juliana Magdalon,123456SP,Morumbi
+Andreia Pereira,789123,urgencia,2024-05-03 12:00:34.000000, , , , ,Vinicius Ferri, , , ,Roger Borges,123456SP,Morumbi
+Joao Pereira,321654,urgencia,2024-05-03 07:47:34.000000,2024-05-03 08:47:34.000000, , , ,Vinicius Ferri, , , ,Maria Isabel,123456SP,Morumbi
+Jose Costa,654987,urgencia,2024-05-03 12:03:34.000000,2024-05-03 12:13:34.000000, , , ,Vinicius Ferri, , , ,Paula Antunes,123456SP,Morumbi
