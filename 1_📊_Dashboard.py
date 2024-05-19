@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_autorefresh import st_autorefresh
 import pandas as pd
 
 st.set_page_config(
@@ -10,8 +9,6 @@ st.set_page_config(
 st.header("Gestão de Tempos e Filas - Hemoterapia Einstein", divider='green')
 
 url = ("https://raw.githubusercontent.com/FerriVinicius/Dashboard-Hemoterapia-Einstein/main/datasample.csv")
-
-count = st_autorefresh(interval=30000, limit=1440, key="fizzbuzzcounter")
 
 page_bg_img = f"""
 <style>
